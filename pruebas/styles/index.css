@@ -1,5 +1,9 @@
-
-/* links del interior flexbox  */
+.feature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
 ul {
     list-style-type: none;
     margin: 0;
