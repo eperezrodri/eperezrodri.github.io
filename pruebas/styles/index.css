@@ -27,3 +27,26 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  #container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+#comentarios{
+    border: solid red 1px ;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: left;
+    }
+    img{
+      max-width: 200px;
+      min-width: 200px;
+  }
+  
+  .cuestionario > p{
+  border:  1px solid red ;
+  color: pink;
+  background-color: pink;
+  }
