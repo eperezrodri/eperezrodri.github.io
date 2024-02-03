@@ -35,11 +35,19 @@
   
   }
   #comentarios{
-      border: solid red 1px ;
-      max-width: 200px;
-      min-width: 200px;
-      text-align: left;
+    border: solid red 1px ;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: left;
+
       }
+      #comentario{
+        border: solid red 1px ;
+        max-width: 200px;
+        min-width: 200px;
+        text-align: left;
+    
+          }
       img{
         max-width: 200px;
         min-width: 200px;
