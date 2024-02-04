@@ -40,7 +40,7 @@ li a:hover {
 
 }
 
-comentarios {
+#comentarios {
   border: solid red 1px;
   max-width: 200px;
   min-width: 200px;
@@ -52,6 +52,11 @@ img {
   max-width: 200px;
   min-width: 200px;
   margin: 10px;
+}
+#lados{
+  width: auto; 
+  max-width: none; 
+  margin: 0;
 }
 
 .cuestionario>p {
@@ -73,10 +78,7 @@ img {
 @media only screen and (min-width: 200px) {
   #comentarios {
     width: calc(50% - 20px);
-  
-    border: solid white 1px;
-    max-width: 200px;
-    text-align: left;
+
   }
 }
 
@@ -85,9 +87,7 @@ img {
   #comentarios {
     width: calc(50% - 20px);
    
-    border: solid white 1px;
-    max-width: 200px;
-    text-align: left;
+    
   }
 }
 
@@ -95,10 +95,6 @@ img {
 @media only screen and (min-width: 1024px) {
   #comentarios {
     width: calc(50% - 20px);
-  
-    border: solid white 1px;
-    max-width: 200px;
-
-    text-align: left;
+ 
   }
 }
