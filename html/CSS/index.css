@@ -1,3 +1,6 @@
+body{
+  background-color:#F4CAF1 ;
+}
 .feature {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -30,32 +33,55 @@
   
     #container{
       display: flex;
-      justify-content:center ;
-      align-items: center;
+      flex-wrap:wrap ;
+    justify-content: space-between;
   
   }
-  #comentarios{
-    border: solid red 1px ;
-    max-width: 200px;
-    min-width: 200px;
-    text-align: left;
+    comentarios {
+      border: solid red 1px;
+      max-width: 200px;
+      min-width: 200px;
+      text-align: left;
+      margin: 10px
 
       }
-      #comentario{
-        border: solid red 1px ;
-        max-width: 200px;
-        min-width: 200px;
-        text-align: left;
     
-          }
       img{
         max-width: 200px;
         min-width: 200px;
+        margin: 10px;
     }
     
     .cuestionario > p{
     border:  1px solid red ;
     color: pink;
     background-color: pink;
+    }
+    @media only screen and (min-width: 200px) {
+      #comentarios {
+        width: calc(50% - 20px); /* 20px de margen entre comentarios en tablet */
+        border: solid white 1px ;
+        max-width: 200px;
+        text-align: left;
+      }
+    }
+    @media only screen and (min-width: 600px) {
+      #comentarios {
+        width: calc(50% - 20px); /* 20px de margen entre comentarios en tablet */
+        border: solid white 1px ;
+        max-width: 200px;
+        text-align: left;
+      }
+    }
+    
+    /* Estilos para ordenador */
+    @media only screen and (min-width: 1024px) {
+      #comentarios {
+        width: calc(50% - 20px); /* 20px de margen entre comentarios en ordenador */
+        border: solid white 1px ;
+        max-width: 200px;
+    
+        text-align: left;
+      }
     }
   
