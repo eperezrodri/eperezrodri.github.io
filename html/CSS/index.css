@@ -1,87 +1,104 @@
-body{
-  background-color:#F4CAF1 ;
+body {
+  background-color: #F4CAF1;
 }
-.feature {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-  }
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #111;
-    }
-  
-    #container{
-      display: flex;
-      flex-wrap:wrap ;
-    justify-content: space-between;
-  
-  }
-    comentarios {
-      border: solid red 1px;
-      max-width: 200px;
-      min-width: 200px;
-      text-align: left;
-      margin: 10px
 
-      }
-    
-      img{
-        max-width: 200px;
-        min-width: 200px;
-        margin: 10px;
-    }
-    
-    .cuestionario > p{
-    border:  1px solid red ;
-    color: pink;
-    background-color: pink;
-    }
-    @media only screen and (min-width: 200px) {
-      #comentarios {
-        width: calc(50% - 20px); /* 20px de margen entre comentarios en tablet */
-        border: solid white 1px ;
-        max-width: 200px;
-        text-align: left;
-      }
-    }
-    @media only screen and (min-width: 600px) {
-      #comentarios {
-        width: calc(50% - 20px); /* 20px de margen entre comentarios en tablet */
-        border: solid white 1px ;
-        max-width: 200px;
-        text-align: left;
-      }
-    }
-    
-    /* Estilos para ordenador */
-    @media only screen and (min-width: 1024px) {
-      #comentarios {
-        width: calc(50% - 20px); /* 20px de margen entre comentarios en ordenador */
-        border: solid white 1px ;
-        max-width: 200px;
-    
-        text-align: left;
-      }
-    }
+.feature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+comentarios {
+  border: solid red 1px;
+  max-width: 200px;
+  min-width: 200px;
+  text-align: left;
+  margin: 10px
+}
+
+img {
+  max-width: 200px;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.cuestionario>p {
+  border: 1px solid red;
+  color: pink;
+  background-color: pink;
+}
+
+/* Estilos para comentarios generales */
+.comentarios {
+  border: solid red 1px;
+  max-width: 200px;
+  min-width: 200px;
+  text-align: left;
+  margin: 10px;
+}
+
+/* Estilos para movil */
+@media only screen and (min-width: 200px) {
+  #comentarios {
+    width: calc(50% - 20px);
   
+    border: solid white 1px;
+    max-width: 200px;
+    text-align: left;
+  }
+}
+
+/* Estilos para tablet */
+@media only screen and (min-width: 600px) {
+  #comentarios {
+    width: calc(50% - 20px);
+   
+    border: solid white 1px;
+    max-width: 200px;
+    text-align: left;
+  }
+}
+
+/* Estilos para ordenador */
+@media only screen and (min-width: 1024px) {
+  #comentarios {
+    width: calc(50% - 20px);
+  
+    border: solid white 1px;
+    max-width: 200px;
+
+    text-align: left;
+  }
+}
