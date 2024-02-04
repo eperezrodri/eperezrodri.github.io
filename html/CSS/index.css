@@ -53,10 +53,21 @@ img {
   min-width: 200px;
   margin: 10px;
 }
-#lados{
+#ladoizquierda{
   width: auto; 
   max-width: none; 
   margin: 0;
+  height: 100%;
+  float: right;
+ 
+}
+#ladodercecha{
+  width: auto; 
+  max-width: none; 
+  margin: 0;
+  float: left;
+  height: 100%;
+ 
 }
 
 .cuestionario>p {
@@ -80,6 +91,14 @@ img {
     width: calc(50% - 20px);
 
   }
+  #ladoizquierda{
+    opacity: 0;
+    
+  }
+  #ladodercecha{
+    opacity: 0;
+    
+  }
 }
 
 /* Estilos para tablet */
@@ -89,6 +108,15 @@ img {
    
     
   }
+  #ladoizquierda{
+    opacity: 0;
+    
+  
+  }
+  #ladodercecha{
+    opacity: 0;
+    
+  }
 }
 
 /* Estilos para ordenador */
@@ -96,5 +124,13 @@ img {
   #comentarios {
     width: calc(50% - 20px);
  
+  }
+  #ladoizquierda{
+    opacity: 1;
+    
+  }
+  #ladodercecha{
+    opacity: 1;
+    
   }
 }
