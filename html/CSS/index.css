@@ -50,7 +50,8 @@ li a:hover {
   max-width: 200px;
   min-width: 200px;
   text-align: left;
-  margin: 10px
+  margin: 10px;
+  background-attachment: fixe;
 }
 
 img {
@@ -66,27 +67,32 @@ img {
 }
 
 #ladoizquierda {
-  width: auto;
+  width: 0;
+  height: 100%;
   max-width: none;
   margin: 0;
-
+  padding: 0 0 100% 0;
   float: right;
+  border:solid 1px red;
+ 
 
 }
 
 #ladodercecha {
-  width: auto;
+  width: 10%;
   max-width: none;
   margin: 0;
   float: left;
+  border:solid 1px red;
+  padding: 0 0 100% ;
 
 
 }
-
-.cuestionario>p {
+/*Css link para el cuestionario*/
+.cuestionario {
   border: 1px solid lightpink;
   color: pink;
-  background-color: white;
+  background-color: black;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
@@ -94,12 +100,15 @@ img {
 }
 
 /* Estilos para comentarios generales */
-.comentarios {
-  border: solid red 20px;
+#comentarios {
+  border: solid lightpink 5px;
   max-width: 200px;
   min-width: 200px;
   text-align: left;
   margin: 10px;
+  padding: 10px;
+  background-color: white;
+
 }
 /* Estilos para las tablas */
 table{
@@ -184,6 +193,7 @@ td {
 
   #ladoizquierda {
     opacity: 1;
+    
 
   }
 
