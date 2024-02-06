@@ -140,16 +140,15 @@ td{
   background-color: white;
   color: lightpink;
 }
-#juegos{
+.juegos{
   width: 25%;
 }
-#info_juegos{
+.info_juegos{
   width: 75%;
 }
-.fotoInicio{
-  background-color: aquamarine;
-  width: 100%;
-  background-image:image(imagenes/quienesSomos.png);
+.quienes{
+  text-align: center;
+  background-color: beige;
 }
 
 
