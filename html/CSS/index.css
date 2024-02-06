@@ -139,6 +139,12 @@ td{
   color: lightpink;
 
 }
+#juegos{
+  width: 25%;
+}
+#info_juegos{
+  width: 75%;
+}
 
 /* Estilos para movil */
 @media only screen and (min-width: 200px) {
