@@ -97,6 +97,16 @@ img {
   padding: 5px;
   border-radius: 20px;
 }
+/*Css link para el Cuestionario de inico de sesion*/
+#CuestionarioInfo{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: whitesmoke;
+  
+  
+}
 
 /* Estilos para comentarios generales */
 #comentarios {
@@ -139,11 +149,15 @@ td{
 
   #ladoizquierda {
     opacity: 0;
+    min-width: auto;
+    max-width: 200px;
 
   }
 
   #ladodercecha {
     opacity: 0;
+    min-width: auto;
+    max-width: 200px;
 
   }
   #piedepagina {
@@ -165,12 +179,16 @@ td{
 
   #ladoizquierda {
     opacity: 0;
+    min-width: auto;
+    max-width: 200px;
 
 
   }
 
   #ladodercecha {
     opacity: 0;
+    min-width: auto;
+    max-width: 200px;
 
   }
   #piedepagina {
@@ -192,13 +210,15 @@ td{
   #ladoizquierda {
     opacity: 1;
     
-    
+    min-width: auto;
+    max-width: 200px;
 
   }
 
   #ladodercecha {
     opacity: 1;
-    
+    min-width: auto;
+    max-width: 200px;
 
   }
   #piedepagina {
