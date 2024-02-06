@@ -127,6 +127,8 @@ table{
 }
 td{
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 .titulo{
   width: auto;
@@ -137,7 +139,6 @@ td{
   text-align: center;
   background-color: white;
   color: lightpink;
-
 }
 #juegos{
   width: 25%;
@@ -145,6 +146,12 @@ td{
 #info_juegos{
   width: 75%;
 }
+.fotoInicio{
+  background-color: aquamarine;
+  width: 100%;
+  background-image:image(imagenes/quienesSomos.png);
+}
+
 
 /* Estilos para movil */
 @media only screen and (min-width: 200px) {
