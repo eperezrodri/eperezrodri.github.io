@@ -21,7 +21,6 @@ ul {
 #navbar {
   position: sticky;
 }
-
 li {
   float: left;
 }
@@ -114,12 +113,10 @@ table{
   width: 100%;
   height: 100%;
 }
-
-td {
+td{
   text-align: center;
 }
-
-.titulo {
+.titulo{
   width: auto;
   text-align: center;
 }

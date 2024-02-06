@@ -9,55 +9,49 @@
 </head>
 
 <body>
-
   <ul id="navbar">
     <li><a class="active" href="inicio.html">Inicio</a></li>
     <li><a href="juegos.html">Juegos</a></li>
     <li><a href="consolas.html">Consolas</a></li>
     <li><a href="cuestionario.html">Cuestionario</a></li>
-  </ul>
-  <div >
+</ul>
+    <form action="cuestionario.html" method="get" >
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" type="text" placeholder="nombre_usuario"/>
+        <br/><br/>
+        <label for="pwd">Contraseña:</label> 
+        <input type="password" id="pwd" name="password"/>
+        <br/><br/>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="resetear">
+      
+      </form> 
+      <form action="cuestionario.html" method="get" >
+        <label for="Producto a reservar">Producto a reservar</label>
+        <select id="cars" name="cars">
+            <option value="1"></option>
+            <option value="2">CivilizationVI</option>
+            <option value="3">Cyberpunk </option>
+            <option value="4">Elden Ring</option>
+            <option value="5">FC 24</option>
+            <option value="6">God of war</option>
+            <option value="7">Grand thefth Auto 5</option>
+            <option value="8">Minecraft</option>
+            <option value="9">Red Dead Redemption 2</option>
+            <option value="10">The last of us 2</option>
+            <option value="11">The witcher 3</option>
+          </select>
+        <br/><br/>
+        <input type="submit" value="Enviar"/>
+      </form> 
+      <div id="derecha">
+        <img src="imagenes/imagen_de_los_lados.png" id="ladodercecha">
+       
+    </div>
+     <div id="izqueirda">
+        <img src="imagenes/imagen_de_los_lados.png" id="ladoizquierda">
     
-    <img src="imagenes/imagen_de_los_lados.png" id="ladodercecha">
-  </div>
-  <div >
-    <img src="imagenes/imagen_de_los_lados.png" id="ladoizquierda">
-
-  </div>
- 
- 
-  <form action="cuestionario.html" method="get">
-    <label for="nombre">Nombre:</label>
-    <input id="nombre" name="nombre" type="text" placeholder="nombre_usuario" />
-    <br /><br />
-    <label for="pwd">Contraseña:</label>
-    <input type="password" id="pwd" name="password" />
-    <br /><br />
-    <input type="submit" value="Enviar" />
-    <input type="reset" value="resetear">
-   
-  </form>
-  <form action="cuestionario.html" method="get">
-    <label for="Producto a reservar">Producto a reservar</label>
-    <select id="cars" name="cars">
-      <option value="1"></option>
-      <option value="2">CivilizationVI</option>
-      <option value="3">Cyberpunk </option>
-      <option value="4">Elden Ring</option>
-      <option value="5">FC 24</option>
-      <option value="6">God of war</option>
-      <option value="7">Grand thefth Auto 5</option>
-      <option value="8">Minecraft</option>
-      <option value="9">Red Dead Redemption 2</option>
-      <option value="10">The last of us 2</option>
-      <option value="11">The witcher 3</option>
-    </select>
-    <br /><br />
-    <input type="submit" value="Enviar" />
-  </form>
-  
-
-  </div>
+    </div>
 
 
  
