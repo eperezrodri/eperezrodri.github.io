@@ -15,12 +15,15 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  
-}
-#navbar{
-position: sticky;
+
 }
 
+#navbar {
+  position: sticky;
+}
+li {
+  float: left;
+}
 
 li a {
   display: block;
@@ -46,7 +49,8 @@ li a:hover {
   max-width: 200px;
   min-width: 200px;
   text-align: left;
-  margin: 10px
+  margin: 10px;
+  background-attachment: fixe;
 }
 
 img {
@@ -54,32 +58,39 @@ img {
   min-width: 500px;
   margin: 10px;
 }
-#lados{
+
+#lados {
   height: 100%;
-  
+
 
 }
-#ladoizquierda{
-  width: auto; 
-  max-width: none; 
-  margin: 0;
+
+#ladoizquierda {
   
+  max-width: none;
+  margin: 0;
+  padding: 0 0 100% 0;
   float: right;
  
-}
-#ladodercecha{
-  width: auto; 
-  max-width: none; 
-  margin: 0;
-  float: left;
- 
- 
+  background-image: url("/html/imagenes/Imagen_de_los_lados.png");
+
 }
 
-.cuestionario>p {
+#ladodercecha {
+  background-image: url("/html/imagenes/Imagen_de_los_lados.png");
+  max-width: none;
+  margin: 0;
+  float: left;
+
+  padding: 0 0 100% ;
+
+
+}
+/*Css link para el cuestionario*/
+.cuestionario {
   border: 1px solid lightpink;
   color: pink;
-  background-color: white;
+  background-color: black;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
@@ -87,32 +98,34 @@ img {
 }
 
 /* Estilos para comentarios generales */
-.comentarios {
-  border: solid red 20px;
+#comentarios {
+  border: solid lightpink 5px;
   max-width: 200px;
   min-width: 200px;
   text-align: left;
   margin: 10px;
+  padding: 10px;
+  background-color: white;
+
 }
 /* Estilos para las tablas */
 table{
   width: 100%;
   height: 100%;
 }
-tr{
-  width: 100%;
-}
-menu{
-  width: 25%;
-  text-align: center;
-}
 td{
-  width: auto;
-  height: auto;
+  text-align: center;
 }
 .titulo{
   width: auto;
   text-align: center;
+}
+#piedepagina {
+  min-width: 200px;
+  text-align: center;
+  background-color: white;
+  color: lightpink;
+
 }
 
 /* Estilos para movil */
@@ -121,13 +134,22 @@ td{
     width: calc(50% - 20px);
 
   }
-  #ladoizquierda{
+
+  #ladoizquierda {
     opacity: 0;
-    
+
   }
-  #ladodercecha{
+
+  #ladodercecha {
     opacity: 0;
-    
+
+  }
+  #piedepagina {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    color: lightpink;
+  
   }
 }
 
@@ -135,17 +157,26 @@ td{
 @media only screen and (min-width: 600px) {
   #comentarios {
     width: calc(50% - 20px);
-   
-    
+
+
   }
-  #ladoizquierda{
+
+  #ladoizquierda {
     opacity: 0;
-    
+
+
+  }
+
+  #ladodercecha {
+    opacity: 0;
+
+  }
+  #piedepagina {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    color: lightpink;
   
-  }
-  #ladodercecha{
-    opacity: 0;
-    
   }
 }
 
@@ -153,14 +184,26 @@ td{
 @media only screen and (min-width: 1024px) {
   #comentarios {
     width: calc(50% - 20px);
- 
+
   }
-  #ladoizquierda{
+
+  #ladoizquierda {
     opacity: 1;
     
+
   }
-  #ladodercecha{
+
+  #ladodercecha {
     opacity: 1;
-    
+
   }
+  #piedepagina {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    color: lightpink;
+  
+  }
+
 }
+
