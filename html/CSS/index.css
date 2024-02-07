@@ -183,6 +183,18 @@ td{
     max-width: 150px;
 
   }
+  #izquierda {
+    opacity: 0;
+    min-width: auto;
+    max-width: 150px;
+
+
+  }
+#derecha{
+  opacity: 0;
+  min-width: auto;
+  max-width: 150px;
+}
 
   #ladodercecha {
     opacity: 0;
@@ -212,7 +224,7 @@ td{
 }
 
 /* Estilos para tablet */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   #comentarios {
     width: calc(50% - 20px);
 
@@ -226,12 +238,24 @@ td{
 
 
   }
+  #izquierda {
+    opacity: 0;
+    min-width: auto;
+    max-width: 150px;
+
+
+  }
 
   #ladodercecha {
     opacity: 0;
     min-width: auto;
     max-width: 150px;
 
+  }
+  #derecha{
+    opacity: 0;
+    min-width: auto;
+    max-width: 150px;
   }
   #piedepagina {
     min-width: 150px;
@@ -268,12 +292,24 @@ td{
     max-width: 150px;
 
   }
+  #izquierda {
+    opacity: 1;
+    min-width: auto;
+    max-width: 150px;
+
+
+  }
 
   #ladodercecha {
     opacity: 1;
     min-width: auto;
     max-width: 150px;
 
+  }
+  #derecha{
+    opacity: 1;
+    min-width: auto;
+    max-width: 150px;
   }
   #piedepagina {
     min-width: 150px;
