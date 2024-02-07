@@ -159,7 +159,10 @@ td{
 }
 .quienes{
   text-align: center;
-  background-color: beige;
+  background-color: white;
+  border: 20px solid  #F4CAF1;
+  color: black;
+  border-radius: 10px;
 }
 
 
