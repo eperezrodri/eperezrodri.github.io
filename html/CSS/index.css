@@ -158,29 +158,12 @@ td{
   color: black;
   border-radius: 10px;
 }
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  size: 100px;
 }
-.div_tocho{
-  max-width: 75;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 100%;
-}
-#izquierda{
-  padding: 0 0 300% 0;
-  height: 300%;
-  background-image: url("/html/imagenes/Imagen_de_los_lados.png");
-}
-#derecha{
-  padding: 0 0 300% 0;
-  height: 300%;
-  background-image: url("/html/imagenes/Imagen_de_los_lados.png");
-}
-#medio{
-  max-width: 60%;
-  min-width: auto;
-}
+
 
 
 /* Estilos para movil */
