@@ -1,23 +1,115 @@
-table td:hover{
-  background-color: rgb(6, 62, 247);
+.div_tocho{
+  max-width: 75;
 }
 
-table{
-  width: 100%;
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
   height: 100%;
-  background-color: #333;
 }
-td{
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+#izquierda{
+  padding: 0 0 300% 0;
+  height: 300%;
+  background-image: url("/html/imagenes/Imagen_de_los_lados.png");
+}
+#derecha{
+  padding: 0 0 300% 0;
+  height: 300%;
+  background-image: url("/html/imagenes/Imagen_de_los_lados.png");
+}
+#medio{
+  max-width: 60%;
+  min-width: auto;
+}
+
+/* Estilos para movil */
+@media only screen and (min-width: 200px) {
+  #comentarios {
+    width: calc(50% - 20px);
+
+  }
+
+  #ladoizquierda {
+    opacity: 0;
+    min-width: auto;
+    max-width: 200px;
+
+  }
+
+  #ladodercecha {
+    opacity: 0;
+    min-width: auto;
+    max-width: 200px;
+
+  }
+  #piedepagina {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    color: lightpink;
   
-  color: lightcoral;
-  padding: 14px 16px;
-  text-decoration: none;
+  }
 }
-a{
-  color: yellow;
+
+/* Estilos para tablet */
+@media only screen and (min-width: 600px) {
+  #comentarios {
+    width: calc(50% - 20px);
+
+
+  }
+
+  #ladoizquierda {
+    opacity: 0;
+    min-width: auto;
+    max-width: 200px;
+
+
+  }
+
+  #ladodercecha {
+    opacity: 0;
+    min-width: auto;
+    max-width: 200px;
+
+  }
+  #piedepagina {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    color: lightpink;
+  
+  }
 }
+
+/* Estilos para ordenador */
+@media only screen and (min-width: 1024px) {
+  #comentarios {
+    width: calc(50% - 20px);
+
+  }
+
+  #ladoizquierda {
+    opacity: 1;
+    
+    min-width: auto;
+    max-width: 200px;
+
+  }
+
+  #ladodercecha {
+    opacity: 1;
+    min-width: auto;
+    max-width: 200px;
+
+  }
+  #piedepagina {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    color: lightpink;
+  
+  }
+
+}
+
