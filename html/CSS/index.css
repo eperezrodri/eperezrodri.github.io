@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+/* barra de navegacion(con el cursor encima) */
 #navbar td:hover{
   background-color: rgb(6, 62, 247);
 }
@@ -76,11 +76,13 @@ img {
   flex-wrap: nowrap;
   height: 100%;
 }
+/* Imagen del lado izquierdo para ordenador */
 #izquierda{
   padding: 0 0 350% 0;
   height: 350%;
   background-image: url("/html/imagenes/Imagen_de_los_lados.png");
 }
+/* Imagen del lado derecho para ordenador */
 #derecha{
   padding: 0 0 350% 0;
   height: 350%;
@@ -158,6 +160,7 @@ td{
   width: auto;
   text-align: center;
 }
+/* texto introductorio */
 .quienes{
   text-align: center;
   background-color: white;
@@ -169,6 +172,7 @@ td{
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* Logo de la empresa */
 .logo{
   text-align: center;
 }
@@ -215,6 +219,7 @@ td{
     color: lightpink;
   
   }
+  /* Imagenenes de las consolas */
   .PlayStation,.Nintendo,.XBOX{
     max-width: 100px;
     
@@ -270,6 +275,7 @@ td{
     color: lightpink;
   
   }
+  /* Imagenenes de las consolas */
   .PlayStation,.Nintendo,.XBOX{
     max-width: 500px;
 
