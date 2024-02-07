@@ -90,6 +90,11 @@ img {
   max-width: 60%;
   min-width: auto;
 }
+#medioconsolas{
+  max-width: 80%;
+  min-width: auto;
+
+}
 /*Css link para el cuestionario*/
 .cuestionario {
   border: 1px solid white;
@@ -170,6 +175,7 @@ td{
 .medio{
   text-align: center;
 }
+
 /* Estilos para movil */
 @media only screen and (min-width: 200px) {
   #comentarios {
@@ -209,12 +215,17 @@ td{
     color: lightpink;
   
   }
-  #PlayStation,#Nintendo,#XBOX{
+  .PlayStation,.Nintendo,.XBOX{
     max-width: 100px;
+    
   }
   #nombrePagina{
     font-size: 400%;
   }
+#medioconsolas{
+  max-width: 30%;
+  min-width: auto;  
+}
 
 }
 
@@ -259,9 +270,15 @@ td{
     color: lightpink;
   
   }
-  #PlayStation,#Nintendo,#XBOX{
+  .PlayStation,.Nintendo,.XBOX{
     max-width: 500px;
+
   }
+  #medioconsolas{
+    max-width: 60%;
+    min-width: auto;  
+  }
+  
   
 }
 
@@ -302,8 +319,12 @@ td{
     color: lightpink;
   
   }
-  #PlayStation,#Nintendo,#XBOX{
-    max-width: 800px;
+  .PlayStation,.Nintendo,.XBOX{
+    max-width: none;
+  }
+  #medioconsolas{
+    max-width: 80%;
+    min-width: auto;  
   }
  
 }
