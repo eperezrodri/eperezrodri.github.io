@@ -164,7 +164,14 @@ td{
   color: black;
   border-radius: 10px;
 }
-
+.logo{
+  float: none;
+}
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  size: 100px;
+}
 
 
 /* Estilos para movil */
