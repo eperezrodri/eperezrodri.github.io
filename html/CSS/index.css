@@ -14,27 +14,29 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
-
+  background-color: #8ed1fc;
 }
 
-#navbar {
-  position: sticky;
-}
 li {
-  float: left;
+  text-align: center;
+  width: auto;
+  height: auto;
 }
 
 li a {
-  display: block;
-  color: lightcoral;
+  display: #8ed1fc;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
 }
-
+a{
+  width: 25%;
+}
 li a:hover {
-  background-color: rgb(6, 62, 247);
+  background-color: #8ed1fc;
+  text-decoration: underline;
+  color: #ff6900;
 }
 
 #container {
