@@ -160,6 +160,16 @@ td{
   color: black;
   border-radius: 10px;
 }
+#nombrePagina{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo{
+  text-align: center;
+}
+.medio{
+  text-align: center;
+}
 /* Estilos para movil */
 @media only screen and (min-width: 200px) {
   #comentarios {
@@ -189,6 +199,9 @@ td{
   }
   #PlayStation,#Nintendo,#XBOX{
     max-width: 100px;
+  }
+  #nombrePagina{
+    font-size: 400%;
   }
 }
 
