@@ -215,6 +215,12 @@ td{
   #nombrePagina{
     font-size: 400%;
   }
+  .fotoCuestionario1{
+    width: fit-content;
+  }
+  .fotoCuestionario2{
+    width: fit-content;
+  }
 }
 
 /* Estilos para tablet */
@@ -261,6 +267,15 @@ td{
   #PlayStation,#Nintendo,#XBOX{
     max-width: 500px;
   }
+  .fotoCuestionario1{
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 380px;
+  }
+  .fotoCuestionario2{
+    width: 400px;
+    padding-left: 380px;
+  }
 }
 
 /* Estilos para ordenador */
@@ -306,6 +321,13 @@ td{
   #PlayStation,#Nintendo,#XBOX{
     max-width: 800px;
   }
-
+  .fotoCuestionario1{
+    width: 800px;
+    padding-left: 650px;
+  }
+  .fotoCuestionario2{
+    width: 800px;
+    padding-left: 650px;
+  }
 }
 
