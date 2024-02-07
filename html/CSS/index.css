@@ -166,6 +166,7 @@ td{
 }
 
 
+
 /* Estilos para movil */
 @media only screen and (min-width: 200px) {
   #comentarios {
@@ -192,6 +193,9 @@ td{
     background-color: white;
     color: lightpink;
   
+  }
+  #PlayStation,#Nintendo,#XBOX{
+    max-width: 100px;
   }
 }
 
@@ -224,6 +228,9 @@ td{
     color: lightpink;
   
   }
+  #PlayStation,#Nintendo,#XBOX{
+    max-width: 500px;
+  }
 }
 
 /* Estilos para ordenador */
@@ -253,6 +260,9 @@ td{
     background-color: white;
     color: lightpink;
   
+  }
+  #PlayStation,#Nintendo,#XBOX{
+    max-width: 800px;
   }
 
 }
